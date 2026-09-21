@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+└── <html lang="pt-BR">
+
+    ├── <head>
+    │   ├── Configuração de caracteres
+    │   ├── Configuração responsiva
+    │   ├── Título da página
+    │   ├── Descrição para buscadores
+    │   ├── Cor do navegador
+    │   ├── Favicon
+    │   ├── Fontes
+    │   └── Arquivo CSS
+    │
+    └── <body>
+
+        ├── <header>
+        │   │
+        │   ├── <a> Logo Nexus Motors
+        │   │   ├── Nome “Nexus”
+        │   │   └── Subtítulo “Motors”
+        │   │
+        │   ├── <button> Abrir menu mobile
+        │   │
+        │   ├── <nav>
+        │   │   └── <ul>
+        │   │       ├── <li><a> Início
+        │   │       ├── <li><a> Estoque
+        │   │       ├── <li><a> Serviços
+        │   │       ├── <li><a> Financiamento
+        │   │       ├── <li><a> Sobre nós
+        │   │       └── <li><a> Contato
+        │   │
+        │   ├── <address>
+        │   │   └── <a> Telefone de atendimento
+        │   │
+        │   └── <a> Botão “Fale conosco”
+        │
+        ├── <main>
+        │   │
+        │   ├── <section> Hero / Apresentação
+        │   │   │
+        │   │   ├── <div> Conteúdo principal
+        │   │   │   ├── <p> Texto de apoio
+        │   │   │   ├── <h1> Movidos por paixão
+        │   │   │   ├── <p> Descrição da empresa
+        │   │   │   │
+        │   │   │   └── <div> Grupo de ações
+        │   │   │       ├── <a> Ver estoque
+        │   │   │       └── <button> Fazer simulação
+        │   │   │
+        │   │   ├── <figure>
+        │   │   │   └── <img> Carro principal
+        │   │   │
+        │   │   └── <div aria-hidden="true">
+        │   │       └── Elementos decorativos
+        │   │
+        │   ├── <section> Benefícios e serviços
+        │   │   │
+        │   │   ├── <h2> Vantagens da Nexus Motors
+        │   │   │   └── Título acessível, visualmente oculto
+        │   │   │
+        │   │   └── <ul>
+        │   │       │
+        │   │       ├── <li>
+        │   │       │   └── <article> Veículos selecionados
+        │   │       │       ├── Ícone
+        │   │       │       ├── <h3> Título
+        │   │       │       └── <p> Descrição
+        │   │       │
+        │   │       ├── <li>
+        │   │       │   └── <article> Garantia estendida
+        │   │       │
+        │   │       ├── <li>
+        │   │       │   └── <article> Financiamento facilitado
+        │   │       │
+        │   │       ├── <li>
+        │   │       │   └── <article> Atendimento especializado
+        │   │       │
+        │   │       └── <li>
+        │   │           └── <article> Troca com facilidade
+        │   │
+        │   ├── <section> Estoque
+        │   │   │
+        │   │   ├── <header> Cabeçalho da seção
+        │   │   │   ├── <h2> Destaques em estoque
+        │   │   │   └── <a> Ver todos os veículos
+        │   │   │
+        │   │   └── <div> Composição do showroom
+        │   │       │
+        │   │       ├── <ul> Lista de veículos
+        │   │       │   │
+        │   │       │   ├── <li>
+        │   │       │   │   └── <article> BMW M4
+        │   │       │   │       ├── <figure>
+        │   │       │   │       │   └── <img>
+        │   │       │   │       ├── <h3> Nome do veículo
+        │   │       │   │       ├── <p> Ano e quilometragem
+        │   │       │   │       ├── <p> Preço
+        │   │       │   │       └── <button> Tenho interesse
+        │   │       │   │
+        │   │       │   ├── <li>
+        │   │       │   │   └── <article> Audi RS6
+        │   │       │   │
+        │   │       │   ├── <li>
+        │   │       │   │   └── <article> Mercedes-AMG C63
+        │   │       │   │
+        │   │       │   └── <li>
+        │   │       │       └── <article> Porsche 911
+        │   │       │
+        │   │       └── <aside> Atendimento especializado
+        │   │           ├── <h2> Sonhou. Acelerou.
+        │   │           ├── <p> Texto de apoio
+        │   │           └── <a> Fale com um especialista
+        │   │
+        │   ├── <section> Financiamento
+        │   │   │
+        │   │   ├── <div> Conteúdo explicativo
+        │   │   │   ├── <p> Texto de apoio
+        │   │   │   ├── <h2> Financie seu próximo carro
+        │   │   │   └── <p> Condições do financiamento
+        │   │   │
+        │   │   └── <button> Abrir simulador
+        │   │
+        │   ├── <section> Sobre a Nexus Motors
+        │   │   ├── <div> Conteúdo textual
+        │   │   │   ├── <p> Texto de apoio
+        │   │   │   ├── <h2> Paixão, confiança e procedência
+        │   │   │   └── <p> Apresentação da empresa
+        │   │   └── <figure>
+        │   │       └── <img> Loja ou veículo
+        │   │
+        │   └── <section> Contato
+        │       │
+        │       ├── <div> Introdução
+        │       │   ├── <p> Atendimento personalizado
+        │       │   ├── <h2> Pronto para acelerar?
+        │       │   └── <p> Orientação para o usuário
+        │       │
+        │       └── <form>
+        │           │
+        │           ├── <fieldset>
+        │           │   ├── <legend> Seus dados
+        │           │   │
+        │           │   ├── <label> Nome
+        │           │   │   └── <input type="text">
+        │           │   │
+        │           │   ├── <label> Telefone
+        │           │   │   └── <input type="tel">
+        │           │   │
+        │           │   └── <label> Veículo ou serviço
+        │           │       └── <input type="text">
+        │           │
+        │           ├── <button type="submit">
+        │           │   └── Enviar contato
+        │           │
+        │           └── <p role="status">
+        │               └── Mensagem de confirmação
+        │
+        ├── <footer>
+        │   │
+        │   ├── <div> Logo Nexus Motors
+        │   │
+        │   ├── <nav> Navegação secundária
+        │   │   ├── <a> Estoque
+        │   │   ├── <a> Financiamento
+        │   │   └── <a> Contato
+        │   │
+        │   ├── <address>
+        │   │   ├── Telefone
+        │   │   ├── Endereço
+        │   │   └── Horário de atendimento
+        │   │
+        │   └── <p> Direitos autorais
+        │
+        ├── <dialog> Simulador de financiamento
+        │   │
+        │   ├── <button> Fechar modal
+        │   ├── <p> Simule agora
+        │   ├── <h2> Encontre a parcela ideal
+        │   │
+        │   └── <form>
+        │       │
+        │       ├── <label> Valor do veículo
+        │       │   └── <input type="number">
+        │       │
+        │       ├── <label> Valor da entrada
+        │       │   └── <input type="number">
+        │       │
+        │       ├── <label> Prazo
+        │       │   └── <select>
+        │       │       ├── 24 meses
+        │       │       ├── 36 meses
+        │       │       ├── 48 meses
+        │       │       └── 60 meses
+        │       │
+        │       ├── <output>
+        │       │   ├── Texto explicativo
+        │       │   ├── Valor estimado
+        │       │   └── Observação
+        │       │
+        │       └── <button type="submit">
+        │           └── Falar com especialista
+        │
+        └── <script>
+            └── Arquivo JavaScript
