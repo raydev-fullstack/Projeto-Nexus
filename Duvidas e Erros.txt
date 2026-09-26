@@ -1,0 +1,39 @@
+o que significa usar isso no <head>:
+
+<meta name="theme-color" content="#050608">
+<meta name="description" content="Veículos premium selecionados, financiamento facilitado e atendimento especializado.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23050608'/%3E%3Cpath d='M12 45V19h8l12 16 12-16h8v26h-8V31L32 47 20 31v14z' fill='%23e30613'/%3E%3C/svg%3E">
+    
+
+o que significa usar na <a> em palavras:
+<strong>
+<small>
+
+strong e small não são “apenas estilo”; eles têm significado.
+Em HTML, isso importa para acessibilidade, SEO e leitura por tecnologias assistivas.
+
+o que significa usar list-style none na <ul> :
+
+É uma propriedade do CSS usada para remover os marcadores padrão (como as bolinhas de listas não ordenadas ou os números de listas ordenadas) dos elementos de uma lista.
+
+
+o que significa usar text-decoration: none no <a> :
+
+propriedade do CSS usada para remover decorações de texto, como linhas de sublinhado, linhas no meio ou acima do texto.
+
+
+Ajustes Importantes por erro:
+
+1: mudei position: absolute;
+2: mudei height: 100px no nav;
+3: mudei align-items no a;
+4: mudei text-decoration no li;
+5: aspas na font;
+6: a sem text-decoration;
+
+
+
+
+

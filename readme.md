@@ -5,5 +5,11 @@
 
 <h3>OBS: Antes de toda a construção em html, css e javascript para testar habilidades de prompt engineering criei todas as imagens do projeto nexus e ate mesmo a referencia de como a pagina deveria ficar e tambem a criação do arquivo em texto de toda a estrutura nexus</H3>
 
-<img src="estrutura nexus.txt">
+<a href="estrutura nexus.txt">Estrutura Nexus</a>
+
 <img src="./assets/prompt engineering.png" alt="print-prompt">
+
+
+<h2>Criação Nexus</h2>
+
+<p>Criação html header e main (Edição css do header completo) criação sendo feita utilizando a estrutura que eu pedi a IA, todos os arquivos e urls.</p>
