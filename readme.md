@@ -12,4 +12,15 @@
 
 <h2>Criação Nexus</h2>
 
-<p>Criação html header e main (Edição css do header completo) criação sendo feita utilizando a estrutura que eu pedi a IA, todos os arquivos e urls.</p>
+<p>Criação html header e main (Edição css do header completo) criação sendo feita utilizando a estrutura que eu descrevi para a IA, todos os arquivos e urls.</p>
+
+<p><strong>Header sendo alinhado e estilizado:</strong></p>
+
+<p>Erro ao alinhar os elementos dentro do header, muitas divs para algo tecnicamente simples.</p>
+
+<P>ANTES</P>
+<img src="./assets/erro header.png">
+
+<P>DEPOIS: Conferindo codigo do prototipo !</P>
+<img src="./assets/Alinhando header.png">
+

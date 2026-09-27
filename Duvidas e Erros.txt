@@ -34,6 +34,61 @@ Ajustes Importantes por erro:
 6: a sem text-decoration;
 
 
+O que significa :
 
+html { scroll-behavior: smooth; }
+
+Isso faz com que a rolagem da página tenha uma animação suave em vez de saltar imediatamente.
+
+
+O que significa :
+
+body {
+  overflow-x: hidden;
+}
+
+Isso faz com que a página esconda qualquer conteúdo que ultrapasse a largura da tela horizontalmente.
+
+Em português simples:
+Se algum elemento da página for maior do que a viewport e “estourar” para a direita ou esquerda, essa sobra não será exibida.
+
+
+O que significa : 
+
+padding: 0 clamp(22px,3.2vw,64px);
+
+Isso define:
+
+padding-top e padding-bottom: 0
+padding-left e padding-right: um valor responsivo calculado com clamp()
+
+O que é clamp()
+
+clamp() pega um valor e o limita entre um mínimo e um máximo.
+
+A sintaxe é:
+
+clamp(mínimo, valor desejado, máximo)
+clamp(22px, 3.2vw, 64px)
+
+
+O que é color: inherit; : 
+
+Em termos simples
+
+> inherit = “pega a mesma propriedade do pai”
+> aqui, color passa a usar a cor definida no container pai
+Quando usar.
+
+É útil quando você quer que um elemento siga a mesma paleta de cores do pai, 
+sem repetir a mesma cor manualmente.
+
+.card {
+  color: #ffffff;
+}
+
+.card a {
+  color: inherit;
+}
 
 
